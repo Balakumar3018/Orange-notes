@@ -1,5 +1,5 @@
 .notes-sidebar{
-    border-right:1px solid orange;
+    border-right:1px solid var(--primary-color);
 }
 .content-sidebar{
     list-style: none;

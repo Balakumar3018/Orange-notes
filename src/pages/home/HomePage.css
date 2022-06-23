@@ -15,14 +15,14 @@
   max-width: 16rem;
 }
 .website-name{
-    color: orange;
+    color: var(--primary-color);
 }
 .website-name, .login-signup-btn{
     max-width: 13rem;
 }
 
 .startnow-btn {
-    background-color: orange;
+    background-color: var(--primary-color);
     cursor: pointer;
     border: none;
     height: 2rem;
