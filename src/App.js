@@ -1,9 +1,13 @@
 import "./App.css";
+import { NavigationTop } from "./components";
+import { Routes } from "./routes/Router";
+
 
 function App() {
   return (
     <div className="App">
-      <h1>hello notes app users</h1>
+        <NavigationTop/>
+         <Routes/>
     </div>
   );
 }

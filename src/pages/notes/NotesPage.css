@@ -1,0 +1,57 @@
+.notes-page{
+    /* background-color: lightgray; */
+    height: 100vh;  
+}
+.notes-container{
+    display: grid;
+    grid-template-areas: "content-sidebar create-notes";
+    grid-template-columns: 25% 75%;
+}
+.notes-main-content{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.create-notes{
+    max-width: 35rem;
+    max-height: 10rem;
+    padding: 1.5rem;
+    box-shadow:0px 4px 8px #888888;
+} 
+.note-title{
+    display: flex;
+    justify-content: space-between;
+}
+.enter-title, .note-description{
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    width: 35rem;
+}
+.create-note-thumbtack-icon{
+    font-size:larger;
+    cursor: pointer;
+}
+.note-description{
+    height: 5rem;
+    font-size: larger;
+}
+.create-notes-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:larger;
+}
+.create-note-palette-icon, .create-note-tag-icon{
+    cursor: pointer;
+}
+.save-note{
+    border: none;
+    background-color: orange;
+    height: 2rem;
+    cursor: pointer;  
+    border-radius: 4px;  
+}
+.create-note-icons{
+    cursor: pointer;
+}
