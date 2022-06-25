@@ -1,0 +1,17 @@
+.notes-sidebar{
+    border-right:1px solid var(--primary-color);
+}
+.content-sidebar{
+    list-style: none;
+    width: fit-content; 
+    text-align: left; 
+    line-height: 3rem;
+}
+.item-sidebar{
+    cursor: pointer;
+    padding: 4px;
+}
+.item-sidebar {
+    cursor: pointer;
+    border: none;
+}

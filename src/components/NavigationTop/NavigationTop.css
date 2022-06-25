@@ -1,0 +1,22 @@
+.navigation-top{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid var(--primary-color);
+}
+.website-name{
+    margin: 0;
+    padding: 1rem;
+    color: var(--primary-color);
+}
+.navigation-links{
+    padding: 1rem;  
+}
+.nav-btn{
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    margin: 0.5rem;
+    opacity: 0.8;
+}
