@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPalette,faTag, faThumbtack} from '@fortawesome/free-solid-svg-icons';
 import "./CreateNotes.css";
-import { useNotes } from '../../contexts/Notes-context';
+import { useNotes } from '../../contexts/notesContext';
 import {addNotes}  from "../../utilities/addNotes";
 
 export default function CreateNotes(){

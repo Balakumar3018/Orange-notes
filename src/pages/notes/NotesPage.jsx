@@ -1,7 +1,7 @@
 import "./NotesPage.css"
 import {NotesSidebar}   from "../../components/index";
 import {CreateNotes}  from "../../components/index";
-import { useNotes } from "../../contexts/Notes-context";
+import { useNotes } from "../../contexts/notesContext";
 import {NoteCard} from "../../components/index";
 
 export default function NotesPage(){
